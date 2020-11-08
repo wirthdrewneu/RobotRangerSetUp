@@ -1,4 +1,4 @@
-# Robot Ranger Set Up
+# 🤖 Robot Ranger Set Up
 ## Description
 This is a guide to help you qucikly set up the Arduino IDE and connect it to the mbot ranger so it can be programmed using arduino c for Mac and Linux. Its probably fair to assume that it will also work on Windows as well. I put this together because I felt that the documentation online was not consistent and am confident it will help you get up running in less than hour rather than days, using our teams lessons learned.  
 ## Steps
