@@ -34,12 +34,12 @@ rather than the tutorial above. I will also guide you through the steps here. \
     a. File->Examples->MakeBlockDrive->Firmware_for_Auriga (ME Auriga is the board on the Mbot Ranger)
     b. The code will appear in the IDE with mbot Ranger connected via USB and Powered ON. Select upload.
     c. The Andruino IDE will begin compiling and uploading, a blue light on the robot will begin to quickly flash, and the robot will make a sound when the upload is complete.
- 10. Test. The process is complete. To test coding on your Mbot Ranger add the code below into a copied and saved version of the Firmware_for_Auriga program in the begining of the void loop() function so it looks like the code below. After once again uploading the code to your robot, the robot's LED ring should light up and stay on.  
-    ```arduino c
-      void loop(){    
+ 10. Test. The process is complete. To test coding on your Mbot Ranger add the code below into a copied and saved version of the Firmware_for_Auriga program in the begining of the void loop() function so it looks like the code below. After once again uploading the code to your robot, the robot's LED ring should light up and stay on.   
+    ```terminal
+      void loop(){   
       led.setColor(0, 255, 255, 255)  
       led.show()   
-      ...} ```
+      ...}```
      
 ## Known issues
 configure dialout
