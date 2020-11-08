@@ -29,7 +29,7 @@ rather than the tutorial above. I will also guide you through the steps here. \
     a. Set Tools->Board to "Andruino Mega or Mega 2560" \
     b. Set Tools->Processor to "ATmega2560 (Mega 2560)" \
     c. Set Tools->Port to the appropriate port.  
-  Configuration **Note My port #'s Linux:dev/ttyUSB0 Mac:(pictured below) These maybe diffferent accross systems. The port number is highlighted, but the entire configuration is pictured below**
+ **Note My port #'s Linux:dev/ttyUSB0 Mac:(pictured below) These maybe diffferent accross systems. The port number is highlighted, but the board and processor configurations are also pictured below**
   ![instructional](images/configuration.png)
  9. Install the firmware into your MBot Ranger
     a. File->Examples->MakeBlockDrive->Firmware_for_Auriga (ME Auriga is the board on the Mbot Ranger). 
