@@ -47,7 +47,7 @@ Firmware Configuration
  
 ![instructional](images/upload.png) 
 
-10. Test. The process is complete. Now test coding on your Mbot Ranger.  
+10. Test. The process is complete. Now test programming your Mbot Ranger.  
     a. Add the code below into a copied and saved version of the Firmware_for_Auriga program in the begining of the existing void loop() function.
          
        ```
