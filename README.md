@@ -13,7 +13,7 @@ This is a guide to help you qucikly set up the Arduino IDE and connect it to the
    ```terminal 
     ./install.sh
     ```
-   d. Configure system dialout group **Note This step is for Linux only and is indepent of Arduino, but neccessary. It allows your linux user to access your usb ports**
+   d. Configure system dialout group **Note This step is for Linux only and is indepent of Arduino, but neccessary. It allows your Linux user to access your usb ports**
     ```terminal 
        sudo addusr <username> dialout
     ```
@@ -33,7 +33,7 @@ rather than the tutorial above. I will also guide you through the steps here. \
     a. Set Tools->Board to "Andruino Mega or Mega 2560" \
     b. Set Tools->Processor to "ATmega2560 (Mega 2560)" \
     c. Set Tools->Port to the appropriate port.  
- **Note My port #'s Linux:dev/ttyUSB0 Mac:(pictured below) These may be diffferent accross systems. The port number is highlighted, but the board and processor configurations are also pictured below**
+ **Note My port #'s Linux:dev/ttyUSB0 Mac:(pictured below) These may be diffferent across systems. The port number is highlighted, but the board and processor configurations are also pictured below**
   ![instructional](images/configuration.png)
  8. Install the firmware into your MBot Ranger.  
     a. File->Examples->MakeBlockDrive->Firmware_for_Auriga (ME Auriga is the board on the Mbot Ranger).  
