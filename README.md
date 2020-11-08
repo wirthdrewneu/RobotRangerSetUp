@@ -25,7 +25,7 @@ rather than the tutorial above. I will also guide you through the steps here. \
  Adding Library 
  ![instructional](images/addzip.png) 
  7. Connect your robot using USB.
- 8. Configure Android IDE for the Mbot Ranger Andruino board.
+ 8. Configure Android IDE for the Mbot Ranger Andruino board.  
     a. Set Tools->Board to "Andruino Mega or Mega 2560" \
     b. Set Tools->Processor to "ATmega2560 (Mega 2560)" \
     c. Set Tools->Port to the appropriate port.  
