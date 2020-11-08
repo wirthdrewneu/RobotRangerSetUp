@@ -12,12 +12,11 @@ This is a guide to help you qucikly set up the Arduino IDE and connect it to the
    c. Run ./install.sh\
    Mac:\
    a. Double click the compressed folder. This should give you the option to extract.\
-   b. Mac will automatically generate an application shortcut in the current folder.
+   b. Mac will automatically generate an application shortcut in the current folder. 
 5. Download [the makerbot firmware](https://github.com/Makeblock-official/Makeblock-Libraries/archive/master.zip) you can also find the link in the tutorial in Step 1 the library is hosted on github at the Makeblock-official account. 
 6. Install the library. This was a step as a time drain for me I reccomend you refer to the README.md in the Makeblock Library .zip
-rather than the tutorial above. I will also guide you through the steps here. 
-   a. Open Arduino IDE 
-   b. Go to Sketch->Include Library ->Add .zip Library Select the zip you downloaded in the previous step. 
-   c. 
-
-9
+rather than the tutorial above. I will also guide you through the steps here. \
+   a. Open Arduino IDE \
+   b. Go to Sketch->Include Library ->Add .zip Library Select the zip you downloaded in the previous step. \
+   c. Restart Arduino IDE **Note: If you performed these steps correctly  you should be able to navigate to Include Library and see MakeBlockDrive in the list of libraries.** 
+ 7. Connect
