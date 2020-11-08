@@ -20,7 +20,7 @@ This is a guide to help you qucikly set up the Arduino IDE and connect it to the
 6. Install the library. This was a step as a time drain for me I reccomend you refer to the README.md in the Makeblock Library .zip
 rather than the tutorial above. I will also guide you through the steps here. \
    a. Open Arduino IDE \
-   b. Go to Sketch->Include Library ->Add .zip Library Select the zip you downloaded in the previous step. \ 
+   b. Go to Sketch->Include Library ->Add .zip Library Select the zip you downloaded in the previous step.  
    c. Restart Arduino IDE **Note: If you performed these steps correctly  you should be able to navigate to Include Library and see MakeBlockDrive in the list of libraries.**   
  Adding Zip  
  ![instructional](images/addzip.png) 
@@ -34,14 +34,14 @@ rather than the tutorial above. I will also guide you through the steps here. \
     b. The code will appear in the IDE with mbot Ranger connected via USB and Powered ON. Select upload.  
     c. The Andruino IDE will begin compiling and uploading, a blue light on the robot will begin to quickly flash, and the robot will make a sound when the upload is complete.
  10. Test. The process is complete. To test coding on your Mbot Ranger add the code below into a copied and saved version of the Firmware_for_Auriga program in the begining of the void loop() function so it looks like the code below. After once again uploading the code to your robot, the robot's LED ring should light up and stay on.   
-    ```
     
-      void loop(){
+    
+      ```void loop(){
       led.setColor(0, 255, 255, 255)  
       led.show()  
-      ...}
+      ...}```
       
-      ```
+    
      
 ## Known issues
 configure dialout
