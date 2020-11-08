@@ -22,13 +22,15 @@ rather than the tutorial above. I will also guide you through the steps here. \
    a. Open Arduino IDE \
    b. Go to Sketch->Include Library ->Add .zip Library Select the zip you downloaded in the previous step.  
    c. Restart Arduino IDE **Note: If you performed these steps correctly  you should be able to navigate to Include Library and see MakeBlockDrive in the list of libraries.**   
- Adding Zip  
+ Adding Library 
  ![instructional](images/addzip.png) 
  7. Connect your robot using USB.
  8. Configure Android IDE for the Mbot Ranger Andruino board.
     a. Set Tools->Board to "Andruino Mega or Mega 2560" \
     b. Set Tools->Processor to "ATmega2560 (Mega 2560)" \
-    c. Set Tools->Port to the appropriate port. 
+    c. Set Tools->Port to the appropriate port.
+  Configuration
+  ![instructional](images/port_mac.png)
  9. Install the firmware into your MBot Ranger
     a. File->Examples->MakeBlockDrive->Firmware_for_Auriga (ME Auriga is the board on the Mbot Ranger). 
     b. The code will appear in the IDE with mbot Ranger connected via USB and Powered ON. Select upload.  
