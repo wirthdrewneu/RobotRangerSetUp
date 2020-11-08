@@ -31,10 +31,10 @@ rather than the tutorial above. I will also guide you through the steps here. \
     c. Set Tools->Port to the appropriate port.  
  **Note My port #'s Linux:dev/ttyUSB0 Mac:(pictured below) These maybe diffferent accross systems. The port number is highlighted, but the board and processor configurations are also pictured below**
   ![instructional](images/configuration.png)
- 9. Install the firmware into your MBot Ranger
-    a. File->Examples->MakeBlockDrive->Firmware_for_Auriga (ME Auriga is the board on the Mbot Ranger). 
-    b. The code will appear in the IDE with mbot Ranger connected via USB and Powered ON. Select upload.  
-    c. The Andruino IDE will begin compiling and uploading, a blue light on the robot will begin to quickly flash, and the robot will make a sound when the upload is complete.
+ 9. Install the firmware into your MBot Ranger. 
+    a. File->Examples->MakeBlockDrive->Firmware_for_Auriga (ME Auriga is the board on the Mbot Ranger).  
+    b. The code will appear in the IDE with mbot Ranger connected via USB and Powered ON. Select upload.    
+    c. The Andruino IDE will begin compiling and uploading, a blue light on the robot will begin to quickly flash, and the robot will make a sound when the upload is complete.  
  10. Test. The process is complete. To test coding on your Mbot Ranger add the code below into a copied and saved version of the Firmware_for_Auriga program in the begining of the void loop() function so it looks like the code below. After once again uploading the code to your robot, the robot's LED ring should light up and stay on.   
     
       ```
