@@ -28,9 +28,9 @@ rather than the tutorial above. I will also guide you through the steps here. \
  8. Configure Android IDE for the Mbot Ranger Andruino board.
     a. Set Tools->Board to "Andruino Mega or Mega 2560" \
     b. Set Tools->Processor to "ATmega2560 (Mega 2560)" \
-    c. Set Tools->Port to the appropriate port.
-  Configuration
-  ![instructional](images/port_mac.png)
+    c. Set Tools->Port to the appropriate port.  
+  Configuration **Note My port #'s Linux:ttyUSB0 Mac: These maybe diffferent accross systems. The port number is highlighted, but the entire configuration is pictured below**
+  ![instructional](images/configuration.png)
  9. Install the firmware into your MBot Ranger
     a. File->Examples->MakeBlockDrive->Firmware_for_Auriga (ME Auriga is the board on the Mbot Ranger). 
     b. The code will appear in the IDE with mbot Ranger connected via USB and Powered ON. Select upload.  
