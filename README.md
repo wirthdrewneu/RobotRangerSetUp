@@ -19,7 +19,7 @@ rather than the tutorial above. I will also guide you through the steps here. \
    a. Open Arduino IDE \
    b. Go to Sketch->Include Library ->Add .zip Library Select the zip you downloaded in the previous step. \ 
    
-![instructional] (images/Screen Shot 2020-11-07 at 9.52.01 PM.png) 
+![instructional] (images/firmware_mac.png) 
    
    c. Restart Arduino IDE **Note: If you performed these steps correctly  you should be able to navigate to Include Library and see MakeBlockDrive in the list of libraries.** 
  7. Connect your robot using USB.
