@@ -40,7 +40,7 @@ Firmware Configuration
  ![instructional](images/firmware_mac.png)
  
  Select Upload
- ![instructional](images/firmware_mac.png) 
+ ![instructional](images/upload.png) 
 10. Test. The process is complete. To test coding on your Mbot Ranger add the code below into a copied and saved version of the Firmware_for_Auriga program in the begining of the void loop() function so it looks like the code below. After once again uploading the code to your robot, the robot's LED ring should light up and stay on.   
     
       ```
