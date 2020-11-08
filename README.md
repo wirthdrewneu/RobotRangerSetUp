@@ -24,15 +24,15 @@ rather than the tutorial above. I will also guide you through the steps here. \
    
 ![instructional](images/addzip.png) 
    
-   c. Restart Arduino IDE **Note: If you performed these steps correctly  you should be able to navigate to Include Library and see MakeBlockDrive in the list of libraries.** 
+   c. Restart Arduino IDE **Note: If you performed these steps correctly  you should be able to navigate to Include Library and see MakeBlockDrive in the list of libraries.**   
  7. Connect your robot using USB.
  8. Configure Android IDE for the Mbot Ranger Andruino board.
     a. Set Tools->Board to "Andruino Mega or Mega 2560" \
     b. Set Tools->Processor to "ATmega2560 (Mega 2560)" \
     c. Set Tools->Port to the appropriate port. 
  9. Install the firmware into your MBot Ranger
-    a. File->Examples->MakeBlockDrive->Firmware_for_Auriga (ME Auriga is the board on the Mbot Ranger)
-    b. The code will appear in the IDE with mbot Ranger connected via USB and Powered ON. Select upload.
+    a. File->Examples->MakeBlockDrive->Firmware_for_Auriga (ME Auriga is the board on the Mbot Ranger). 
+    b. The code will appear in the IDE with mbot Ranger connected via USB and Powered ON. Select upload.  
     c. The Andruino IDE will begin compiling and uploading, a blue light on the robot will begin to quickly flash, and the robot will make a sound when the upload is complete.
  10. Test. The process is complete. To test coding on your Mbot Ranger add the code below into a copied and saved version of the Firmware_for_Auriga program in the begining of the void loop() function so it looks like the code below. After once again uploading the code to your robot, the robot's LED ring should light up and stay on.   
     ```
