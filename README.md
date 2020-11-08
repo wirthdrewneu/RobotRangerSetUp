@@ -1,9 +1,9 @@
 # 🤖 Mbot Ranger Set Up For Arduino C Programming
 ## Description
-This is a guide to help you qucikly set up the Arduino IDE and connect it to the Mbot Ranger for programming in arduino c uing Mac or Linux. Its probably fair to assume that it will also work on Windows as well. I put this together because I felt that the documentation online was not consistent and am confident it will help you get up running in less than hour rather than days, using our teams lessons learned.  
+This is a guide to help you qucikly set up the Arduino IDE and connect it to the Mbot Ranger for programming in Arduino C using Mac or Linux. Its probably fair to assume that it will also work on Windows as well. I put this together because I felt that the documentation online was not consistent and am confident it will help you get up running in less than hour rather than days, using our teams lessons learned.  
 ## Steps
 1. This [make bot tutorital](http://learn.makeblock.com/en/learning-arduino-programming/) is a great starting point. Use it to get a brief overview of what you will be doing. \ 
-   **Note: I found that in the tutorial listed above I did not need the driver for Mac in order for it to run. I would suggest skipping this step if you come accross a need for this step please share it. Step 2 the tutorial came off to me as instructing the user to copy and paste folders into directories that didnt specifically exist. I would also not reccomend following this step (Refer to Step 5 of this documentation.) **
+   **Note: I found that in the tutorial listed above I did not need the driver for Mac in order for it to run. I would suggest skipping this step if you come accross a need for this step please share it. Step 2 in the tutorial came off to me as instructing the user to copy and paste folders into directories that didnt specifically exist. I would also not reccomend following this step (Refer to Step 5 of this documentation.) **
 2. Download the [Arduino IDE](https://www.arduino.cc/en/software), you can also use the link in the tutorial above or just google Arduino IDE
 3. Install Arduino IDE\
    Linux: \
@@ -13,7 +13,7 @@ This is a guide to help you qucikly set up the Arduino IDE and connect it to the
    ```terminal 
     ./install.sh
     ```
-   d. Configure system dialout group **Note This step is for Linux only and is indepent of Arduino but neccessary. It allows the your linux user to access your usb ports**
+   d. Configure system dialout group **Note This step is for Linux only and is indepent of Arduino, but neccessary. It allows your linux user to access your usb ports**
     ```terminal 
        sudo addusr <username> dialout
     ```
@@ -47,7 +47,7 @@ Firmware Configuration
  
 ![instructional](images/upload.png) 
 
-10. Test. The process is complete. To test coding on your Mbot Ranger add the code below into a copied and saved version of the Firmware_for_Auriga program in the begining of the void loop() function so it looks like the code below. After once again uploading the code to your robot, the robot's LED ring should light up and stay on.   
+10. Test. The process is complete. To test coding on your Mbot Ranger add the code below into a copied and saved version of the Firmware_for_Auriga program in the begining of the void loop() function so it looks like the code below. After, once again, uploading the code to your robot, the robot's LED ring should light up and stay on.   
     
       ```
       void loop(){
