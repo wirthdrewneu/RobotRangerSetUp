@@ -39,8 +39,7 @@ rather than the tutorial above. I will also guide you through the steps here. \
       void loop(){    
       led.setColor(0, 255, 255, 255)  
       led.show()   
-      ...} 
-```
+      ...} ```
      
 ## Known issues
 configure dialout
