@@ -9,7 +9,10 @@ This is a guide to help you qucikly set up the Arduino IDE and connect it to the
    Linux: \
    a. Extract the download into a folder of your choice.\
    b. Navigate(cd) into the extracted folder from the terminal.\
-   c. Run ./install.sh\
+   c. Run 
+   ```terminal 
+    ./install.sh
+    ```
    Mac:\
    a. Double click the compressed folder. This should give you the option to extract.\
    b. Mac will automatically generate an application shortcut in the current folder. 
